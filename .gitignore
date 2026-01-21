@@ -1,0 +1,28 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Secrets (никогда не коммить!)
+.mcp.json
+config/tokens.md
+*.env
+.env*
+
+# Personal data (не коммить реальные аккаунты)
+# Раскомментируй если хочешь исключить свои данные:
+# config/ad_accounts.md
+# config/briefs/*.md
+# !config/briefs/_template.md
+
+# Logs
+config/history/
+
+# Generated
+*.log
+*.tmp
